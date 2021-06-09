@@ -1,18 +1,18 @@
 <template>
   <b-container fluid>
-    <b-row id="line" class="h-25 flex-column align-items-center">
+    <b-row id="line" class="flex-column align-items-center">
       <b-col id="n1"> oi</b-col>
       <b-col id="n2">
         <img src="../assets/logo.png" alt="">
       </b-col>
       <b-col id="n1">oi</b-col>
     </b-row>
-    <b-row id="line2" class="h-50 align-items-center">
+    <b-row id="line2" class="align-items-center">
       <b-col>
         <img src="../assets/logo.png" alt="">
       </b-col>
     </b-row>
-    <b-row id="line3" class="h-25 align-items-center">
+    <b-row id="line3" class="align-items-center">
       <b-col>
         <img src="../assets/logo.png" alt="">
       </b-col>
@@ -36,14 +36,17 @@ html, body {
 }
 #line{
   position: absolute;
+  height: 25%;
 }
 #line2 {
   position: absolute;
   top: 25%;
+  height: 50%;
 }
 #line3 {
   position: absolute;
   top: 75%;
+  height: 25%;
 }
 #n1{
   height: 20%;
